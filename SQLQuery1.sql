@@ -104,7 +104,7 @@ FROM EmployeeDemographics
 ORDER BY 1 Desc , 4 Desc
 
 
------------------------------------------------------INTERMEDIATE---------------------------------------------
+
 
 Insert into EmployeeDemographics VALUES
 (1011, 'Ryan', 'Howard', 26, 'Male'),
@@ -208,7 +208,7 @@ UNION ALL
 SELECT EmployeeID, JobTitle, Salary
 From SQLTutorial.dbo.EmployeeSalary
 
---------------------------------------------------CASE Statements
+--------------------------------------------------CASE Statements--------------------------------
 
 
 SELECT FirstName, JobTitle, Age, Averagesal, Category
@@ -335,7 +335,7 @@ FROM SQLTutorial.dbo.EmployeeDemographics dem
 JOIN SQLTutorial.dbo.EmployeeSalary sal
 	ON dem.EmployeeID = sal.EmployeeID
 
-----------------------------------------------ADVANCED---------------------------------
+
 -----------------------------------------------CTE--------------------------------------
 
 WITH Cte_Employee AS
